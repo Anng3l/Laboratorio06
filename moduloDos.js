@@ -1,5 +1,4 @@
-import x from './modulosUno.js';
+import x, { nombre, rangos } from './modulosUno.js';
 
-let nombre = "Jose"
-console.log(nombre); 
+console.log("Mejor champ top: ", nombre); 
 x(nombre);
